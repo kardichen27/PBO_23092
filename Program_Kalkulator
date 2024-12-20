@@ -1,0 +1,17 @@
+from file_kalkulator import *
+
+print("ini adalah program kalkulator")
+
+a=int(input("masukan nilai a :"))
+b=int(input("masukan nilai b :"))
+
+print("a+b=",tambah(a,b))
+print("a*b=",kali(a,b))
+print("a-b=",kurang(a,b))
+print("a/b=",bagi(a,b))
+
+hit = kltr(a,b)
+print("a+b=",hit.tambah())
+print("a*b=",hit.kali())
+print("a-b=",hit.kurang())
+print("a/b=",hit.bagi())
