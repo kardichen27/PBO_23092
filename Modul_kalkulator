@@ -1,0 +1,31 @@
+def tambah (a,b):
+    return(a+b)
+
+def kali (a,b):
+    return(a*b)
+
+def kurang (a,b):
+    return(a-b)
+
+def bagi (a,b):
+    return(a/b)
+
+class kltr : 
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+
+    def tambah (self):
+        return( self.a+ self.b)
+    
+    def kali (self):
+        return( self.a* self.b)
+    
+    def kurang (self):
+        return( self.a- self.b)
+    
+    def bagi (self):
+        return( self.a/ self.b)
+
+    
+
